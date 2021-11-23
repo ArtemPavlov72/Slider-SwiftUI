@@ -48,7 +48,7 @@ struct ButtonView: View {
     var body: some View {
         Button(title, action: action)
             .padding()
-            .alert("Your Score", isPresented: $showAlert, actions: {}) {
+            .alert("Ваши очки", isPresented: $showAlert, actions: {}) {
                 Text("\(currentScore)")
             }
     }
