@@ -12,6 +12,7 @@
 		888EEEB9274D441700DC80F3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 888EEEB8274D441700DC80F3 /* Assets.xcassets */; };
 		888EEEBC274D441700DC80F3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 888EEEBB274D441700DC80F3 /* Preview Assets.xcassets */; };
 		888EEEC3274D445D00DC80F3 /* Slider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 888EEEC2274D445D00DC80F3 /* Slider.swift */; };
+		888EEEC5274D4BBD00DC80F3 /* GameSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 888EEEC4274D4BBD00DC80F3 /* GameSlider.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +22,7 @@
 		888EEEB8274D441700DC80F3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		888EEEBB274D441700DC80F3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		888EEEC2274D445D00DC80F3 /* Slider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Slider.swift; sourceTree = "<group>"; };
+		888EEEC4274D4BBD00DC80F3 /* GameSlider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameSlider.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +39,7 @@
 		888EEEA8274D441400DC80F3 = {
 			isa = PBXGroup;
 			children = (
+				888EEEC4274D4BBD00DC80F3 /* GameSlider.swift */,
 				888EEEB3274D441400DC80F3 /* Slider SwiftUI */,
 				888EEEB2274D441400DC80F3 /* Products */,
 			);
@@ -140,6 +143,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				888EEEC5274D4BBD00DC80F3 /* GameSlider.swift in Sources */,
 				888EEEB7274D441400DC80F3 /* ContentView.swift in Sources */,
 				888EEEC3274D445D00DC80F3 /* Slider.swift in Sources */,
 				888EEEB5274D441400DC80F3 /* Slider_SwiftUIApp.swift in Sources */,

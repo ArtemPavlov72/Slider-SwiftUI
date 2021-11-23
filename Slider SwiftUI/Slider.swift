@@ -2,7 +2,7 @@
 //  Slider.swift
 //  Slider SwiftUI
 //
-//  Created by iMac on 23.11.2021.
+//  Created by Pavlov Artem on 23.11.2021.
 //
 
 import SwiftUI
