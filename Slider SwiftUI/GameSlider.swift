@@ -8,9 +8,9 @@
 import SwiftUI
 
 struct GameSlider: View {
-    @Binding var value: Double
+    @Binding var value: Double//положение ползунка
     
-    let customValue: Int
+    let customValue: Int //первоначальное значение ContentView
     let color: UIColor
     let alpha: Int
     

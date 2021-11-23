@@ -9,7 +9,7 @@ import SwiftUI
 
 struct ContentView: View {
     @State private var value = Int.random(in: 1...100)
-    @State private var customValue = 50.0
+    @State private var customValue = 50.0 //базовое положение ползунка
     @State private var showAlert = false
     
     var body: some View {
@@ -48,7 +48,7 @@ struct ButtonView: View {
     var body: some View {
         Button(title, action: action)
             .padding()
-            .alert("Ваши очки", isPresented: $showAlert, actions: {}) {
+            .alert("Ваши очки:", isPresented: $showAlert, actions: {}) {
                 Text("\(currentScore)")
             }
     }
