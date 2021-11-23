@@ -39,7 +39,6 @@
 		888EEEA8274D441400DC80F3 = {
 			isa = PBXGroup;
 			children = (
-				888EEEC4274D4BBD00DC80F3 /* GameSlider.swift */,
 				888EEEB3274D441400DC80F3 /* Slider SwiftUI */,
 				888EEEB2274D441400DC80F3 /* Products */,
 			);
@@ -58,6 +57,7 @@
 			children = (
 				888EEEB4274D441400DC80F3 /* Slider_SwiftUIApp.swift */,
 				888EEEB6274D441400DC80F3 /* ContentView.swift */,
+				888EEEC4274D4BBD00DC80F3 /* GameSlider.swift */,
 				888EEEC2274D445D00DC80F3 /* Slider.swift */,
 				888EEEB8274D441700DC80F3 /* Assets.xcassets */,
 				888EEEBA274D441700DC80F3 /* Preview Content */,
